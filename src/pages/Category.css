@@ -122,3 +122,8 @@
 .category-form form {
   padding-right: 2rem;  /* adds right padding */
 }
+.error-text {
+  color: #e53935;   /* professional red */
+  font-size: 12px;
+  margin-top: 2px;
+}
