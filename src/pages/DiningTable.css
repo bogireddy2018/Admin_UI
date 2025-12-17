@@ -1,0 +1,98 @@
+.hotel-table-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+  }
+  
+  .page-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .hotel-table-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form */
+  .hotel-table-form {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .hotel-table-form h3 {
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  select.input-field {
+    padding: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table */
+  .hotel-table-list {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .hotel-table-list h3 {
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  .hotel-table-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .hotel-table-list th,
+  .hotel-table-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .hotel-table-list th {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .hotel-table-list tr:hover {
+    background-color: #f9f9f9;
+  }
+  .hotel-table-form form {
+    padding-right: 2rem;  /* adds right padding */
+  }
