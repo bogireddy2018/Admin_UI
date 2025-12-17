@@ -1,0 +1,124 @@
+/* Keep previous styles for .category-page, .card, .category-container, .category-table etc. */
+
+/* Adjust input-field width for multiple fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  select.input-field {
+    padding: 10px;
+  }
+  
+  /* Table */
+  .category-table table th,
+  .category-table table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .category-table table tr:hover {
+    background-color: #f9f9f9;
+  }
+  /* Page wrapper */
+.category-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* Page title */
+.page-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px;
+}
+
+/* Flex container */
+.category-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Card style */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left form */
+.category-form {
+  flex: 1;
+  min-width: 250px;
+}
+
+.category-form h3 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Right table */
+.category-table {
+  flex: 2;
+  min-width: 300px;
+}
+
+.category-table h3 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.category-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.category-table th,
+.category-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.category-table th {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.category-table tr:hover {
+  background-color: #f9f9f9;
+}
+.category-form form {
+  padding-right: 2rem;  /* adds right padding */
+}
